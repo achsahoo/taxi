@@ -1,0 +1,8 @@
+<app-header></app-header>
+<div class="sidebar">
+  <ul class="menu">
+    <li (click)=changeSelectedOption(1) [ngClass]="selectedOption === 1 ? 'selected' : ''">View Bookings</li>
+    <li (click)=changeSelectedOption(2) [ngClass]="selectedOption === 2 ? 'selected' : ''">POS Booking</li>
+  </ul>
+</div>
+<router-outlet></router-outlet>

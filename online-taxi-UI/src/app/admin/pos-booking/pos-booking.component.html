@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="header-container">
+      <p class="header-text">Customer Support Booking</p>
+    </div>
+    <div class="form-container">
+      <div class="row">
+        <div class="form-group">
+          <b>Drop Address</b> <br />
+          <textarea name="address" id="address" placeholder="Address"></textarea>
+        </div>
+        <div class="form-group">
+            <b>Area</b> <br />
+            <select id="area" name="area">
+                <option value="">Select Area Inside Bhubaneswar</option>
+                <option value="patia">Patia</option>
+                <option value="kiit">KIIT</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <b>Other Cities</b> <br />
+              <select id="otherCities" name="otherCities">
+                  <option value="">Select Area Outside Bhubaneswar</option>
+                  <option value="angul">Angul</option>
+                  <option value="cuttack">Cuttack</option>
+                </select>
+            </div>
+      </div>
+      <div class="row">
+          <div class="form-group">
+              <b>Contact</b> <br />
+              <input type="text" name="contact" id="contact" placeholder="Contact" />
+            </div>
+            <div class="form-group">
+                <b>Customer Name</b> <br />
+                <input type="text" name="name" id="name" placeholder="Customer Name" />
+            </div>
+              <div class="form-group">
+                  <b>Vehicle Type</b> <br />
+                  <select id="vehicleType" name="vehicleType">
+                      <option value="">Select Vehicle Type</option>
+                    </select>
+                </div>
+      </div>
+      <div class="row">
+          <div class="form-group">
+              <b>No. of Vehicle</b> <br />
+              <input type="number" name="number" id="number" min="1" value="1" />
+            </div>
+            <div class="form-group">
+                <b>Vehicle Number</b> <br />
+                <input type="text" name="vehicleNumber" id="vehicleNumber" placeholder="Vehicle Number" />
+              </div>
+              <div class="form-group">
+                  <b>Amount To be Paid</b> <br />
+                  <input type="text" name="amount" id="amount" value="--" disabled />
+                </div>
+      </div>
+      <div class="row">
+          <div class="form-group">
+              <b>Amount Collected</b> <br />
+              <input type="text" name="amountCollected" id="amountCollected" value="--" />
+            </div>
+      </div>
+      <div id="button-container" class="row">
+        <button class="action-button">Confirm</button>
+        <button class="action-button">Cancel</button>
+      </div>
+    </div>
+</div>
+

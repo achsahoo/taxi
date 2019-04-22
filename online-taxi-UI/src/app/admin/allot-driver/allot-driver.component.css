@@ -1,0 +1,84 @@
+.container {
+    margin-left: 18%;
+}
+
+.header-container {
+    width: 88%;
+    background-color: black;
+    height: 50px;
+}
+
+.header-text {
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.form-group {
+    margin: 15px;
+    width: 26.85%;
+}
+
+.action-button{
+    height: 35px;
+    width: 150px;
+    margin: 10px 0 0 30px;
+    color: yellow;
+    background-color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type=text], [type=number], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+#button-container {
+    direction: rtl; 
+    margin-right: 110px;
+}
+
+@media(max-width: 500px) {
+    .header-text{
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .form-group {
+        width: 280px;
+    }
+    .header-container {
+        margin-top: 60px;
+        margin-left: 10px;
+    }
+    .action-button {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
